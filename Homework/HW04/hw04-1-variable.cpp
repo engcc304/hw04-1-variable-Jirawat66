@@ -7,6 +7,6 @@
 
 int a = 10 ;
 float b = 20 ;
-char c[] = "Haha" ;
+char c[10] = "Haha" ;
 char d = 'a' ;
-printf( "_ _ _ _", _, _, _, _) ; //TODO: #10 Display variable a, b, c and d.
+printf( "%d 0.1%f %c %c ", a, b, c, d) ; 
