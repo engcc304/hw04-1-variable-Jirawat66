@@ -4,9 +4,11 @@
     Output:
         10 20.0 Haha a
 */
+#include <stdio.h>
 
+int main() {
 int a = 10 ;
 float b = 20 ;
-char c[10] = "Haha" ;
+char c[] = "Haha" ;
 char d = 'a' ;
-printf( "%d 0.1%f %c %c ", a, b, c, d) ; 
+printf( "%d %0.1f %c %c ", a, b, c, d ) ; 
